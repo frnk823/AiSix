@@ -13,7 +13,7 @@ public class Six extends JFrame {
     JCheckBox computerFirst;
     private JLabel statusbar;
 
-    //private JLabel name = new JLabel(("By 冯懿"));
+    private JLabel name = new JLabel(("By 冯懿"));
 
     public Six(){
         super("六子棋人机对战");
@@ -32,7 +32,7 @@ public class Six extends JFrame {
         statusbar.setBorder(BorderFactory.createEtchedBorder(EtchedBorder.RAISED));
         this.add(statusbar,BorderLayout.SOUTH);
 
-        //this.add(name, BorderLayout.SOUTH);
+        this.add(name, BorderLayout.SOUTH);
 
         boardPanel=new ChessBoard(this);
         this.add(boardPanel, BorderLayout.CENTER);
