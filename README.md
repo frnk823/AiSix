@@ -1,2 +1,2 @@
 # AiSix
-A man-machine connect6 game based by AiFive.
+六子棋人机博弈小游戏
